@@ -1054,7 +1054,6 @@ national_propaganda_idea_groups_expanded = { #NEEDSLOC
 	}
 	partisan_groups = {
 		hostile_attrition = 1
-		enables_royal_council = yes
 	}
 	uniform_court = {
 		same_culture_advisor_cost = -0.15
