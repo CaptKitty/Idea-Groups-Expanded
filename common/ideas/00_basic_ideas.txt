@@ -240,7 +240,7 @@ religious_ideas = {
 	}
 }
 
-national_propaganda_idea_groups_expanded = { #NEEDSLOC
+christian_idea_groups_expanded = { #NEEDSLOC
 	category = DIP
 
 	bonus = {
@@ -1164,7 +1164,7 @@ influence_ideas = {
 	}
 }
 
-influence_ideas = {
+imperial_idea_groups_expanded = { #NEEDSLOC
 	category = DIP
 
 	trigger = {
