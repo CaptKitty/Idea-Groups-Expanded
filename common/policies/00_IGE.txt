@@ -31,9 +31,9 @@ got_mit_und_act = {
 	allow = {
 		full_idea_group = standing_army_idea_groups_expanded
 		OR = {
-			has_idea_group = religious_ideas
-			has_idea_group = christian_idea_groups_expanded
-			has_idea_group = islam_idea_groups_expanded
+			full_idea_group = religious_ideas
+			full_idea_group = christian_idea_groups_expanded
+			full_idea_group = islam_idea_groups_expanded
 		}
 	}
 	
@@ -44,7 +44,7 @@ got_mit_und_act = {
 	}
 }
 
-standardized_weapon_production_act = {
+got_mit_und_act = {
 	monarch_power = MIL
 
 	potential = {
@@ -213,8 +213,8 @@ noble_generals_act = {
 	allow = {
 		full_idea_group = standing_army_idea_groups_expanded
 		OR = {
-			has_idea_group = influence_ideas
-			has_idea_group = imperial_idea_groups_expanded
+			full_idea_group = influence_ideas
+			full_idea_group = imperial_idea_groups_expanded
 		}
 	}
 	
@@ -290,15 +290,15 @@ noble_administrators_act = {
 	potential = {
 		has_idea_group = state_affairs_idea_groups_expanded
 		OR = {
-			has_idea_group = aristocratic_ideas
+			has_idea_group = aristocracy_ideas
 			has_idea_group = horde_idea_groups_expanded
 		}
 	}
 	allow = {
-		has_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = state_affairs_idea_groups_expanded
 		OR = {
-			has_idea_group = aristocratic_ideas
-			has_idea_group = horde_idea_groups_expanded
+			full_idea_group = aristocracy_ideas
+			full_idea_group = horde_idea_groups_expanded
 		}
 	}
 	
@@ -318,8 +318,8 @@ political_entry_test_act = {
 		has_idea_group = plutocratic_ideas
 	}
 	allow = {
-		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = plutocratic_ideas
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = plutocratic_ideas
 	}
 	
 	candidate_random_bonus = 1
@@ -338,8 +338,8 @@ land_grants_act = {
 		has_idea_group = offensive_ideas
 	}
 	allow = {
-		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = offensive_ideas
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = offensive_ideas
 	}
 	
 	core_creation = -0.15
@@ -357,8 +357,8 @@ eminent_domain_act = {
 		has_idea_group = defensive_ideas
 	}
 	allow = {
-		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = defensive_ideas
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = defensive_ideas
 	}
 	
 	build_cost = -0.10
@@ -377,8 +377,8 @@ excellence_in_administration_act = {
 		has_idea_group = quality_ideas
 	}
 	allow = {
-		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = quality_ideas
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = quality_ideas
 	}
 	
 	adm_advisor_cost = -0.10
@@ -397,8 +397,8 @@ expansion_of_army_act = {
 		has_idea_group = quantity_ideas
 	}
 	allow = {
-		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = quantity_ideas
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = quantity_ideas
 	}
 	
 	regiment_recruit_speed = -0.10
@@ -417,8 +417,8 @@ naval_artillery_act = {
 		has_idea_group = naval_ideas
 	}
 	allow = {
-		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = naval_ideas
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = naval_ideas
 	}
 	
 	blockade_efficiency = 0.25
@@ -437,8 +437,8 @@ diplomatic_immunity_act = {
 		has_idea_group = diplomatic_ideas
 	}
 	allow = {
-		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = diplomatic_ideas
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = diplomatic_ideas
 	}
 	
 	diplomatic_reputation = 1
@@ -457,8 +457,8 @@ counterintelligence_act = {
 		has_idea_group = espionage_ideas
 	}
 	allow = {
-		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = espionage_ideas
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = espionage_ideas
 	}
 	
 	global_spy_defence = 0.20
@@ -477,8 +477,8 @@ overseas_administration_act = {
 		has_idea_group = exploration_ideas
 	}
 	allow = {
-		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = exploration_ideas
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = exploration_ideas
 	}
 	
 	colonist_placement_chance = 0.05
@@ -501,8 +501,8 @@ court_embassy_act = {
 	allow = {
 		has_idea_group = state_affairs_idea_groups_expanded
 		OR = {
-			has_idea_group = influence_ideas
-			has_idea_group = imperial_idea_groups_expanded
+			full_idea_group = influence_ideas
+			full_idea_group = imperial_idea_groups_expanded
 		}
 	}
 	
@@ -521,8 +521,8 @@ merchant_navy_act = {
 		has_idea_group = maritime_ideas
 	}
 	allow = {
-		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = maritime_ideas
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = maritime_ideas
 	}
 	
 	light_ship_cost = -0.20
@@ -540,8 +540,8 @@ merchant_privilege_act = {
 		has_idea_group = diplomatic_ideas
 	}
 	allow = {
-		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = diplomatic_ideas
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = diplomatic_ideas
 	}
 	
 	global_prov_trade_power_modifier = 0.1
@@ -559,8 +559,8 @@ state_education_act = {
 		has_idea_group = national_propaganda_idea_groups_expanded
 	}
 	allow = {
-		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = national_propaganda_idea_groups_expanded
 	}
 	
 	innovativeness_gain = 0.50
@@ -577,15 +577,15 @@ ancestral_reverence_act = {
 	potential = {
 		has_idea_group = national_propaganda_idea_groups_expanded
 		OR = {
-			has_idea_group = aristocratic_ideas
+			has_idea_group = aristocracy_ideas
 			has_idea_group = horde_idea_groups_expanded
 		}
 	}
 	allow = {
-		has_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = national_propaganda_idea_groups_expanded
 		OR = {
-			has_idea_group = aristocratic_ideas
-			has_idea_group = horde_idea_groups_expanded
+			full_idea_group = aristocracy_ideas
+			full_idea_group = horde_idea_groups_expanded
 		}
 	}
 	
@@ -604,8 +604,8 @@ freedom_doctrine_act = {
 		has_idea_group = plutocratic_ideas
 	}
 	allow = {
-		has_idea_group = national_propaganda_idea_groups_expanded
-		has_idea_group = plutocratic_ideas
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = plutocratic_ideas
 	}
 	
 	republican_tradition = 0.2
@@ -624,8 +624,8 @@ youth_scouts_act = {
 		has_idea_group = offensive_ideas
 	}
 	allow = {
-		has_idea_group = national_propaganda_idea_groups_expanded
-		has_idea_group = offensive_ideas
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = offensive_ideas
 	}
 	
 	land_morale = 0.05
@@ -644,8 +644,8 @@ peasant_resistance_act = {
 		has_idea_group = defensive_ideas
 	}
 	allow = {
-		has_idea_group = national_propaganda_idea_groups_expanded
-		has_idea_group = defensive_ideas
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = defensive_ideas
 	}
 	
 	hostile_attrition = 1
@@ -664,8 +664,8 @@ regional_news_act = {
 		has_idea_group = quality_ideas
 	}
 	allow = {
-		has_idea_group = national_propaganda_idea_groups_expanded
-		has_idea_group = quality_ideas
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = quality_ideas
 	}
 	
 	ae_impact = -0.10
@@ -683,8 +683,8 @@ general_mobilization_act = {
 		has_idea_group = quantity_ideas
 	}
 	allow = {
-		has_idea_group = national_propaganda_idea_groups_expanded
-		has_idea_group = quantity_ideas
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = quantity_ideas
 	}
 	
 	war_taxes_cost_modifier = -0.50
@@ -702,8 +702,8 @@ royal_navy_act = {
 		has_idea_group = naval_ideas
 	}
 	allow = {
-		has_idea_group = national_propaganda_idea_groups_expanded
-		has_idea_group = naval_ideas
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = naval_ideas
 	}
 	
 	global_ship_recruit_speed = -0.25
@@ -721,8 +721,8 @@ royal_decree_act = {
 		has_idea_group = administrative_ideas
 	}
 	allow = {
-		has_idea_group = national_propaganda_idea_groups_expanded
-		has_idea_group = administrative_ideas
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = administrative_ideas
 	}
 	
 	max_absolutism = 5
@@ -741,8 +741,8 @@ fake_news_act = {
 		has_idea_group = innovativeness_ideas
 	}
 	allow = {
-		has_idea_group = national_propaganda_idea_groups_expanded
-		has_idea_group = innovativeness_ideas
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = innovativeness_ideas
 	}
 	
 	dip_tech_cost_modifier = -0.1
@@ -761,8 +761,8 @@ national_investment_act = {
 		has_idea_group = economic_ideas
 	}
 	allow = {
-		has_idea_group = national_propaganda_idea_groups_expanded
-		has_idea_group = economic_ideas
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = economic_ideas
 	}
 	
 	build_cost = -0.10
@@ -781,8 +781,8 @@ naturalization_act = {
 		has_idea_group = humanist_ideas
 	}
 	allow = {
-		has_idea_group = national_propaganda_idea_groups_expanded
-		has_idea_group = humanist_ideas
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = humanist_ideas
 	}
 	
 	num_accepted_cultures = 1
@@ -807,9 +807,9 @@ clerical_education_act = {
 	allow = {
 		has_idea_group = national_propaganda_idea_groups_expanded
 		OR = {
-			has_idea_group = religious_ideas
-			has_idea_group = islam_idea_groups_expanded
-			has_idea_group = christian_idea_groups_expanded
+			full_idea_group = religious_ideas
+			full_idea_group = islam_idea_groups_expanded
+			full_idea_group = christian_idea_groups_expanded
 		}
 	}
 	
@@ -820,7 +820,7 @@ clerical_education_act = {
 	}
 }
 
-clerical_education_act = {
+global_unity_act = {
 	monarch_power = ADM
 
 	potential = {
@@ -828,8 +828,8 @@ clerical_education_act = {
 		has_idea_group = expansion_ideas
 	}
 	allow = {
-		has_idea_group = national_propaganda_idea_groups_expanded
-		has_idea_group = expansion_ideas
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = expansion_ideas
 	}
 	
 	global_colonial_growth = 10

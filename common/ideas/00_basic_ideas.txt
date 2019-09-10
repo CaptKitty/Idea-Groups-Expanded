@@ -62,7 +62,7 @@ aristocracy_ideas = {
 	}
 }
 
-horde_idea_groups_expanded = { #NEEDSLOC
+horde_idea_groups_expanded = {
 	category = MIL
 
 	bonus = {
@@ -240,7 +240,7 @@ religious_ideas = {
 	}
 }
 
-christian_idea_groups_expanded = { #NEEDSLOC
+christian_idea_groups_expanded = {
 	category = ADM
 
 	bonus = {
@@ -283,7 +283,7 @@ christian_idea_groups_expanded = { #NEEDSLOC
 	}
 }
 
-islam_idea_groups_expanded = { #NEEDSLOC
+islam_idea_groups_expanded = {
 	category = ADM
 
 	bonus = {
@@ -988,7 +988,7 @@ administrative_ideas = {
 	}
 }
 
-state_affairs_idea_groups_expanded = { #NEEDSLOC
+state_affairs_idea_groups_expanded = {
 	category = ADM
 
 	bonus = {
@@ -1031,11 +1031,11 @@ state_affairs_idea_groups_expanded = { #NEEDSLOC
 	}
 }
 
-national_propaganda_idea_groups_expanded = { #NEEDSLOC
+national_propaganda_idea_groups_expanded = {
 	category = DIP
 
 	bonus = {
-		global_spy_defence = 0.10
+		global_spy_defence = 0.15
 	}
 
 	trigger = {
@@ -1163,7 +1163,7 @@ influence_ideas = {
 	}
 }
 
-imperial_idea_groups_expanded = { #NEEDSLOC
+imperial_idea_groups_expanded = {
 	category = DIP
 
 	trigger = {
@@ -1179,9 +1179,12 @@ imperial_idea_groups_expanded = { #NEEDSLOC
 		yearly_corruption = -0.10
 	}
 	
-	reinstate_foederati = { #Needstobechanged
-		manpower_recovery_speed = 0.10
-		vassal_forcelimit_bonus = 1
+	born_in_the_purple = {
+		legitimacy = 0.5
+		republican_tradition = 0.2
+		horde_unity = 0.5
+		devotion = 1
+		heir_chance = 0.5
 	}
 	efficient_bureaucracy = {
 		advisor_cost = -0.10
@@ -1196,8 +1199,8 @@ imperial_idea_groups_expanded = { #NEEDSLOC
 		yearly_absolutism = 0.1
 	}
 	benign_legislation = {
-		reduced_liberty_desire = 10
-		diplomatic_annexation_cost = -0.10
+		reduced_liberty_desire = 5
+		diplomatic_annexation_cost = -0.15
 	}
 	benevolent_reputation = {
 		diplomatic_reputation = 1
@@ -1209,7 +1212,7 @@ imperial_idea_groups_expanded = { #NEEDSLOC
 	}
 }
 
-standing_army_idea_groups_expanded = { #NEEDSLOC
+standing_army_idea_groups_expanded = {
 	category = MIL
 
 	bonus = {
