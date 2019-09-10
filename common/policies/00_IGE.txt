@@ -570,3 +570,272 @@ state_education_act = {
 		factor = 1
 	}
 }
+
+ancestral_reverence_act = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		OR = {
+			has_idea_group = aristocratic_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}
+	}
+	allow = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		OR = {
+			has_idea_group = aristocratic_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}
+	}
+	
+	leader_land_shock = 1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+freedom_doctrine_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = plutocratic_ideas
+	}
+	allow = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = plutocratic_ideas
+	}
+	
+	republican_tradition = 0.2
+	global_spy_defence = 0.10
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+youth_scouts_act = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = offensive_ideas
+	}
+	allow = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = offensive_ideas
+	}
+	
+	land_morale = 0.05
+	shock_damage = 0.10
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+peasant_resistance_act = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = defensive_ideas
+	}
+	allow = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = defensive_ideas
+	}
+	
+	hostile_attrition = 1
+	war_exhaustion = -0.025
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+regional_news_act = {
+	monarch_power = dip
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = quality_ideas
+	}
+	allow = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = quality_ideas
+	}
+	
+	ae_impact = -0.10
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+general_mobilization_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = quantity_ideas
+	}
+	allow = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = quantity_ideas
+	}
+	
+	war_taxes_cost_modifier = -0.50
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+royal_navy_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = naval_ideas
+	}
+	allow = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = naval_ideas
+	}
+	
+	global_ship_recruit_speed = -0.25
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+royal_decree_act = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = administrative_ideas
+	}
+	allow = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = administrative_ideas
+	}
+	
+	max_absolutism = 5
+	yearly_absolutism = 0.10
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+fake_news_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = innovativeness_ideas
+	}
+	allow = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = innovativeness_ideas
+	}
+	
+	dip_tech_cost_modifier = -0.1
+	improve_relation_modifier = 0.20
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+national_investment_act = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = economic_ideas
+	}
+	allow = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = economic_ideas
+	}
+	
+	build_cost = -0.10
+	global_tax_modifier = 0.10
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+naturalization_act = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = humanist_ideas
+	}
+	allow = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = humanist_ideas
+	}
+	
+	num_accepted_cultures = 1
+	promote_culture_cost = -0.50
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+clerical_education_act = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		OR = {
+			has_idea_group = religious_ideas
+			has_idea_group = islam_idea_groups_expanded
+			has_idea_group = christian_idea_groups_expanded
+		}
+	}
+	allow = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		OR = {
+			has_idea_group = religious_ideas
+			has_idea_group = islam_idea_groups_expanded
+			has_idea_group = christian_idea_groups_expanded
+		}
+	}
+	
+	institution_spread_from_true_faith = 0.5
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+clerical_education_act = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = expansion_ideas
+	}
+	allow = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = expansion_ideas
+	}
+	
+	global_colonial_growth = 10
+	native_uprising_chance = -0.25
+
+	ai_will_do = {
+		factor = 1
+	}
+}
