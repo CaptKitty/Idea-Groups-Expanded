@@ -75,7 +75,7 @@ horde_idea_groups_expanded = { #NEEDSLOC
 	
 	steppe_cavalry = {
 		cavalry_power = 0.05
-		cavalry_flanking = 0.20
+		cav_to_inf_ratio = 0.15
 	}
 	direct_payment = {
 		loot_amount = 0.33
@@ -86,7 +86,7 @@ horde_idea_groups_expanded = { #NEEDSLOC
 	shock_warfare = {
 		leader_land_shock = 1
 	}
-	lessions_of_war = {
+	lessons_of_war = {
 		army_tradition_from_battle = 1
 	}
 	peace_through_conquest = {
@@ -1199,7 +1199,7 @@ imperial_idea_groups_expanded = { #NEEDSLOC
 		reduced_liberty_desire = 10
 		diplomatic_annexation_cost = -0.10
 	}
-	marcher_lords = {
+	benevolent_reputation = {
 		diplomatic_reputation = 1
 		diplomatic_upkeep = 1
 	}
@@ -1237,7 +1237,7 @@ standing_army_idea_groups_expanded = { #NEEDSLOC
 	standardized_uniforms = {
 		drill_decay_modifier = -0.25
 	}
-	lessions_of_tradition = {
+	lessons_of_tradition = {
 		army_tradition_decay = -0.01
 	}
 	meritocratic_promotion = {
