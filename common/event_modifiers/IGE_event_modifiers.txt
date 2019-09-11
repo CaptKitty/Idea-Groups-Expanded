@@ -1,0 +1,6 @@
+IGE_Jihad = {
+	monthly_piety = -0.0025
+}
+IGE_Legalism = {
+	monthly_piety = 0.0025
+}

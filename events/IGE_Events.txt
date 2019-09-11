@@ -1,0 +1,39 @@
+namespace = IGE_Events
+
+country_event = {
+	id = IGE_Events.1
+	title = IGE_Events.1.t
+	desc = IGE_Events.1.d
+	picture = WESTERNISATION_eventPicture
+	
+
+	trigger = {
+		islam_idea_groups_expanded = 3
+		NOT = { has_ruler_modifier = IGE_Jihad }
+		NOT = { has_ruler_modifier = IGE_Legalism }
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	immediate = {
+
+	}
+	
+	option = {
+		name = DVE_Events.1.a
+		add_ruler_modifier = {
+			name = "IGE_Jihad"
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = DVE_Events.1.b
+		add_ruler_modifier = {
+			name = "IGE_Legalism"
+			duration = -1
+		}
+	}
+}

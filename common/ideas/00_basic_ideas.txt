@@ -301,7 +301,7 @@ islam_idea_groups_expanded = {
 		global_tax_modifier = 0.10
 	}
 	religious_warriors = {
-		monthly_piety = -0.002
+		
 	}
 	twelve_imams = {
 		missionaries = 1
@@ -1051,9 +1051,10 @@ national_propaganda_idea_groups_expanded = {
 	}
 	cultural_superiority = {
 		culture_conversion_cost = -0.20
+		core_decay_on_your_own = -0.10
 	}
-	partisan_groups = {
-		hostile_attrition = 1
+	state_censorship = {
+		harsh_treatment_cost = -0.25
 	}
 	uniform_court = {
 		same_culture_advisor_cost = -0.15
@@ -1216,7 +1217,7 @@ standing_army_idea_groups_expanded = {
 	category = MIL
 
 	bonus = {
-		yearly_army_professionalism = 0.001
+		yearly_army_professionalism = 0.0025
 	}
 
 	trigger = {
@@ -1239,6 +1240,7 @@ standing_army_idea_groups_expanded = {
 	}
 	standardized_uniforms = {
 		drill_decay_modifier = -0.25
+		infantry_cost = -0.10
 	}
 	lessons_of_tradition = {
 		army_tradition_decay = -0.01
