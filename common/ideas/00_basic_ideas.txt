@@ -251,22 +251,23 @@ christian_idea_groups_expanded = {
 		religion_group = christian
 	}
 	
-	missionary_schools = {
+	misssionary_schools = {
 		missionaries = 1
 		missionary_maintenance_cost = -0.25
 	}
-	divine_supremacy = {
+	divine_supreeeemacy = {
 		global_missionary_strength = 0.03
 	}
 	religious_fervor = {
 		papal_influence = 2
 		church_power_modifier = 0.20
 		fervor = 0.5
+		tolerance_own = 1
 	}
 	sacred_struggle = {
 		warscore_cost_vs_other_religion = -0.1
 	}
-	deus_vult = {
+	desu_vult = {
 		cb_on_religious_enemies = yes
 	}
 	faith_through_unity = {
@@ -308,11 +309,11 @@ islam_idea_groups_expanded = {
 		missionary_maintenance_cost = -0.25
 	}
 	haji_pilgrimage = {
-		legitimacy = 1
+		legitimacy = 0.5
 		republican_tradition = 0.2
-		devotion = 1
+		devotion = 0.5
 	}
-	deus_vult = {
+	deus_vultu = {
 		cb_on_religious_enemies = yes
 	}
 	shadada = {
