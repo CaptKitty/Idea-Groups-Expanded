@@ -284,7 +284,7 @@ christian_idea_groups_expanded = {
 	}
 }
 
-islam_idea_groups_expanded = {
+muslim_idea_groups_expanded = {
 	category = ADM
 
 	bonus = {
