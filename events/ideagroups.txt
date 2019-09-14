@@ -14,7 +14,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = aristocracy_ideas
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}
 		stability = 0
 	}	
 
@@ -39,7 +42,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = aristocracy_ideas	
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}
 	}
 
 	mean_time_to_happen = {
@@ -64,7 +70,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = aristocracy_ideas	
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -87,7 +96,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = aristocracy_ideas	
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}
 	}		
 	
 	mean_time_to_happen = {
@@ -112,7 +124,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = aristocracy_ideas	
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}
 	}
 
 	mean_time_to_happen = {
@@ -193,7 +208,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = aristocracy_ideas	
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}
 	}		
 
 	mean_time_to_happen = {
@@ -221,7 +239,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = aristocracy_ideas
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}
 		NOT = {	has_country_modifier =  "freesubjects_modifier" }
 		NOT = {	has_country_modifier =  "serf_exploitation" }
 	}
@@ -249,7 +270,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = aristocracy_ideas	
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}
 		NOT = {	has_country_modifier =  "freesubjects_modifier" }
 		NOT = {	has_country_modifier =  "serfdom_modifier" }
 	}
@@ -302,7 +326,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = aristocracy_ideas	
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}	
 	}
 
 	mean_time_to_happen = {
@@ -327,7 +354,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = aristocracy_ideas	
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}	
 		NOT = {	has_country_modifier =  "unhappy_merchants" }
 		NOT = {	has_country_modifier =  "plutocracy_modifier" }
 	}
@@ -382,7 +412,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = aristocracy_ideas	
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}	
 		war_exhaustion = 5
 	}
 
@@ -407,7 +440,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = aristocracy_ideas	
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}	
 	}
 
 	mean_time_to_happen = {
@@ -436,7 +472,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = aristocracy_ideas
+		OR = {
+			has_idea_group = aristocracy_ideas
+			has_idea_group = horde_idea_groups_expanded
+		}
 		NOT = { manpower_percentage = 0.9 }
 	}
 
