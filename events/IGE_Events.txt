@@ -8,7 +8,7 @@ country_event = {
 	
 
 	trigger = {
-		islam_idea_groups_expanded = 3
+		muslim_idea_groups_expanded = 3
 		NOT = { has_ruler_modifier = IGE_Jihad }
 		NOT = { has_ruler_modifier = IGE_Legalism }
 	}
