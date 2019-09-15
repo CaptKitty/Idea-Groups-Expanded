@@ -222,7 +222,7 @@ ruthless_governance_act = {
 		full_idea_group = exploration_ideas
 	}
 	
-	reduced_liberty_desire = -5
+	reduced_liberty_desire = 5
 	liberty_desire_from_subject_development = -0.10
 
 	ai_will_do = {
