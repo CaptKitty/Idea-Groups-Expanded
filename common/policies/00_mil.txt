@@ -327,20 +327,62 @@ military_zeal_act = {
 	
 	potential = {
 		has_idea_group = quality_ideas
-		OR = {
-			has_idea_group = religious_ideas
-			has_idea_group = islam_idea_groups_expanded
-			has_idea_group = christian_idea_groups_expanded
-		}
+		has_idea_group = islam_idea_groups_expanded
 	}
 	
 	allow = {
 		full_idea_group = quality_ideas
-		OR = {
-			full_idea_group = religious_ideas
-			full_idea_group = islam_idea_groups_expanded
-			full_idea_group = christian_idea_groups_expanded
+		full_idea_group = islam_idea_groups_expanded
+	}
+	
+	land_morale = 0.05
+	siege_ability = 0.1
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
 		}
+	}
+}
+
+military_zeal_act = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = christian_idea_groups_expanded
+	}
+	
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = christian_idea_groups_expanded
+	}
+	
+	land_morale = 0.05
+	siege_ability = 0.1
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}
+	}
+}
+
+military_zeal_act = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = religious_ideas
+	}
+	
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = religious_ideas
 	}
 	
 	land_morale = 0.05
@@ -359,20 +401,62 @@ field_priests = {
 	monarch_power = MIL
 
 	potential = {
-		OR = {
-			has_idea_group = religious_ideas
-			has_idea_group = islam_idea_groups_expanded
-			has_idea_group = christian_idea_groups_expanded
-		}
+		has_idea_group = islam_idea_groups_expanded
 		has_idea_group = quantity_ideas
 	}
 	
 	allow = {
-		OR = {
-			full_idea_group = religious_ideas
-			full_idea_group = islam_idea_groups_expanded
-			full_idea_group = christian_idea_groups_expanded
+		full_idea_group = islam_idea_groups_expanded
+		full_idea_group = quantity_ideas
+	}
+
+	land_morale = 0.1
+	recover_army_morale_speed = 0.05
+	
+	ai_will_do = {
+		factor = 1.2
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
 		}
+	}
+}
+
+field_priests = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = christian_idea_groups_expanded
+		has_idea_group = quantity_ideas
+	}
+	
+	allow = {
+		full_idea_group = christian_idea_groups_expanded
+		full_idea_group = quantity_ideas
+	}
+
+	land_morale = 0.1
+	recover_army_morale_speed = 0.05
+	
+	ai_will_do = {
+		factor = 1.2
+		modifier = {
+			factor = 1.5
+			is_at_war = yes
+		}
+	}
+}
+
+field_priests = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = religious_ideas
+		has_idea_group = quantity_ideas
+	}
+	
+	allow = {
+		full_idea_group = religious_ideas
 		full_idea_group = quantity_ideas
 	}
 
@@ -501,18 +585,33 @@ the_tenures_abolition_act = {
 
 	potential = {
 		has_idea_group = diplomatic_ideas
-		OR = {
-			has_idea_group = aristocracy_ideas
-			has_idea_group = horde_idea_groups_expanded
-		}
+		has_idea_group = horde_idea_groups_expanded
 	}
 	
 	allow = {
 		full_idea_group = diplomatic_ideas
-		OR = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = horde_idea_groups_expanded
-		}
+		full_idea_group = horde_idea_groups_expanded
+	}
+
+	free_leader_pool = 1
+	diplomats = 1
+		
+	ai_will_do = {
+		factor = 0.6
+	}	
+}
+
+the_tenures_abolition_act = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = diplomatic_ideas
+		has_idea_group = aristocracy_ideas
+	}
+	
+	allow = {
+		full_idea_group = diplomatic_ideas
+		full_idea_group = aristocracy_ideas
 	}
 
 	free_leader_pool = 1
@@ -611,21 +710,71 @@ zealous_captains = {
 	
 	potential = {
 		has_idea_group = naval_ideas
-		OR = {
-			has_idea_group = religious_ideas
-			has_idea_group = islam_idea_groups_expanded
-			has_idea_group = christian_idea_groups_expanded
-		}
+		has_idea_group = islam_idea_groups_expanded
 	}
 	
 	allow = {
 		full_idea_group = naval_ideas
-		OR = {
-			full_idea_group = religious_ideas
-			full_idea_group = islam_idea_groups_expanded
-			full_idea_group = christian_idea_groups_expanded
-		}
+		full_idea_group = islam_idea_groups_expanded
 	}	
+	
+	sunk_ship_morale_hit_recieved = -0.10
+	leader_naval_shock = 1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+zealous_captains = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = christian_idea_groups_expanded
+	}
+	
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = christian_idea_groups_expanded
+	}	
+	
+	sunk_ship_morale_hit_recieved = -0.10
+	leader_naval_shock = 1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 10 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { navy_size = 20 }
+		}
+	}
+}
+
+zealous_captains = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = naval_ideas
+		has_idea_group = religious_ideas
+	}
+	
+	allow = {
+		full_idea_group = naval_ideas
+		full_idea_group = religious_ideas
+	}
 	
 	sunk_ship_morale_hit_recieved = -0.10
 	leader_naval_shock = 1
@@ -648,18 +797,94 @@ autonomous_estates = {
 	
 	potential = {
 		has_idea_group = influence_ideas
-		OR = {
-			has_idea_group = aristocracy_ideas
-			has_idea_group = horde_idea_groups_expanded
-		}
+		has_idea_group = aristocracy_ideas
 	}
 	
 	allow = {
 		full_idea_group = influence_ideas
-		OR = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = horde_idea_groups_expanded
+		full_idea_group = aristocracy_ideas
+	}	
+	
+	global_unrest = -1
+	vassal_forcelimit_bonus = 1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { vassal = 1 }
 		}
+		modifier = {
+			factor = 1.5
+			vassal = 2
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 3
+		}			
+		modifier = {
+			factor = 1.5
+			vassal = 4
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 5
+		}	
+	}
+}
+
+autonomous_estates = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = influence_ideas
+		has_idea_group = horde_idea_groups_expanded
+	}
+	
+	allow = {
+		full_idea_group = influence_ideas
+		full_idea_group = horde_idea_groups_expanded
+	}	
+	
+	global_unrest = -1
+	vassal_forcelimit_bonus = 1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { vassal = 1 }
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 2
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 3
+		}			
+		modifier = {
+			factor = 1.5
+			vassal = 4
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 5
+		}	
+	}
+}
+
+autonomous_estates = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = influence_ideas
+		has_idea_group = aristocracy_ideas
+	}
+	
+	allow = {
+		full_idea_group = influence_ideas
+		full_idea_group = aristocracy_ideas
 	}	
 	
 	global_unrest = -1
@@ -874,18 +1099,48 @@ noble_loyalty_act = {
 	monarch_power = MIL
 
 	potential = {
-		OR = {
-			has_idea_group = aristocracy_ideas
-			has_idea_group = horde_idea_groups_expanded
-		}
+		has_idea_group = horde_idea_groups_expanded
 		has_idea_group = spy_ideas
 	}
 	
 	allow = {
-		OR = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = horde_idea_groups_expanded
+		full_idea_group = horde_idea_groups_expanded
+		full_idea_group = spy_ideas
+	}
+
+	cavalry_power = 0.20
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { cavalry_fraction = 0.2 }
+		}			
+		modifier = {
+			factor = 1.5
+			cavalry_fraction = 0.28
 		}
+		modifier = {
+			factor = 1.5
+			cavalry_fraction = 0.38
+		}
+		modifier = {
+			factor = 1.5
+			cavalry_fraction = 0.45
+		}
+	}
+}
+
+noble_loyalty_act = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = aristocracy_ideas
+		has_idea_group = spy_ideas
+	}
+	
+	allow = {
+		full_idea_group = aristocracy_ideas
 		full_idea_group = spy_ideas
 	}
 
@@ -915,18 +1170,31 @@ noble_loyalty_act = {
 the_colonial_nobility_act = {
 	monarch_power = MIL
 	potential = {
-		OR = {
-			has_idea_group = aristocracy_ideas
-			has_idea_group = horde_idea_groups_expanded
-		}
+		has_idea_group = horde_idea_groups_expanded
 		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
-		OR = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = horde_idea_groups_expanded
-		}
+		full_idea_group = horde_idea_groups_expanded
+		full_idea_group = exploration_ideas
+	}
+
+	global_manpower_modifier = 0.33
+
+	ai_will_do = {
+		factor = 0.8
+	}
+}
+
+the_colonial_nobility_act = {
+	monarch_power = MIL
+	potential = {
+		has_idea_group = aristocracy_ideas
+		has_idea_group = exploration_ideas
+	}
+	
+	allow = {
+		full_idea_group = aristocracy_ideas
 		full_idea_group = exploration_ideas
 	}
 
@@ -940,18 +1208,35 @@ the_colonial_nobility_act = {
 nobles_in_navy_act = {
 	monarch_power = MIL
 	potential = {
-		OR = {
-			has_idea_group = aristocracy_ideas
-			has_idea_group = horde_idea_groups_expanded
-		}
+		has_idea_group = horde_idea_groups_expanded
 		has_idea_group = maritime_ideas
 	}
 	
 	allow = {
-		OR = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = horde_idea_groups_expanded
-		}
+		full_idea_group = horde_idea_groups_expanded
+		full_idea_group = maritime_ideas
+	}
+
+	navy_tradition_decay = -0.01
+
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0
+			NOT = { navy_size = 20 }
+		}		
+	}
+}
+
+nobles_in_navy_act = {
+	monarch_power = MIL
+	potential = {
+		has_idea_group = aristocracy_ideas
+		has_idea_group = maritime_ideas
+	}
+	
+	allow = {
+		full_idea_group = aristocracy_ideas
 		full_idea_group = maritime_ideas
 	}
 

@@ -22,19 +22,49 @@ got_mit_und_act = {
 
 	potential = {
 		has_idea_group = standing_army_idea_groups_expanded
-		OR = {
-			has_idea_group = religious_ideas
-			has_idea_group = christian_idea_groups_expanded
-			has_idea_group = islam_idea_groups_expanded
-		}
+		has_idea_group = muslim_idea_groups_expanded
 	}
 	allow = {
 		full_idea_group = standing_army_idea_groups_expanded
-		OR = {
-			full_idea_group = religious_ideas
-			full_idea_group = christian_idea_groups_expanded
-			full_idea_group = islam_idea_groups_expanded
-		}
+		full_idea_group = muslim_idea_groups_expanded
+	}
+	
+	manpower_recovery_speed = 0.25
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+got_mit_und_act = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = standing_army_idea_groups_expanded
+		has_idea_group = christian_idea_groups_expanded
+	}
+	allow = {
+		full_idea_group = standing_army_idea_groups_expanded
+		full_idea_group = christian_idea_groups_expanded
+	}
+	
+	manpower_recovery_speed = 0.25
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+got_mit_und_act = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = standing_army_idea_groups_expanded
+		has_idea_group = religious_ideas
+	}
+	allow = {
+		full_idea_group = standing_army_idea_groups_expanded
+		full_idea_group = religious_ideas
 	}
 	
 	manpower_recovery_speed = 0.15
@@ -205,20 +235,35 @@ noble_generals_act = {
 
 	potential = {
 		has_idea_group = standing_army_idea_groups_expanded
-		OR = {
-			has_idea_group = influence_ideas
-			has_idea_group = imperial_idea_groups_expanded
-		}
+		has_idea_group = imperial_idea_groups_expanded
 	}
 	allow = {
 		full_idea_group = standing_army_idea_groups_expanded
-		OR = {
-			full_idea_group = influence_ideas
-			full_idea_group = imperial_idea_groups_expanded
-		}
+		full_idea_group = imperial_idea_groups_expanded
 	}
 	
 	free_leader_pool = 1
+	power_projection_from_insults = 0.25
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+noble_generals_act = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = standing_army_idea_groups_expanded
+		has_idea_group = influence_ideas
+	}
+	allow = {
+		full_idea_group = standing_army_idea_groups_expanded
+		full_idea_group = influence_ideas
+	}
+	
+	free_leader_pool = 1
+	power_projection_from_insults = 0.25
 
 	ai_will_do = {
 		factor = 1
@@ -289,17 +334,31 @@ noble_administrators_act = {
 
 	potential = {
 		has_idea_group = state_affairs_idea_groups_expanded
-		OR = {
-			has_idea_group = aristocracy_ideas
-			has_idea_group = horde_idea_groups_expanded
-		}
+		has_idea_group = horde_idea_groups_expanded
 	}
 	allow = {
 		full_idea_group = state_affairs_idea_groups_expanded
-		OR = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = horde_idea_groups_expanded
-		}
+		full_idea_group = horde_idea_groups_expanded
+	}
+	
+	mil_advisor_cost = -0.10
+	cavalry_cost = -0.10
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+noble_administrators_act = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = state_affairs_idea_groups_expanded
+		has_idea_group = aristocracy_ideas
+	}
+	allow = {
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = aristocracy_ideas
 	}
 	
 	mil_advisor_cost = -0.10
@@ -493,17 +552,11 @@ court_embassy_act = {
 
 	potential = {
 		has_idea_group = state_affairs_idea_groups_expanded
-		OR = {
-			has_idea_group = influence_ideas
-			has_idea_group = imperial_idea_groups_expanded
-		}
+		has_idea_group = imperial_idea_groups_expanded
 	}
 	allow = {
-		has_idea_group = state_affairs_idea_groups_expanded
-		OR = {
-			full_idea_group = influence_ideas
-			full_idea_group = imperial_idea_groups_expanded
-		}
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = imperial_idea_groups_expanded
 	}
 	
 	diplomatic_annexation_cost = -0.10
@@ -513,6 +566,28 @@ court_embassy_act = {
 		factor = 1
 	}
 }
+
+court_embassy_act = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = state_affairs_idea_groups_expanded
+		has_idea_group = influence_ideas
+	}
+	allow = {
+		full_idea_group = state_affairs_idea_groups_expanded
+		full_idea_group = influence_ideas
+
+	}
+	
+	diplomatic_annexation_cost = -0.10
+	diplomats = 1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
 merchant_navy_act = {
 	monarch_power = DIP
 
@@ -576,17 +651,30 @@ ancestral_reverence_act = {
 
 	potential = {
 		has_idea_group = national_propaganda_idea_groups_expanded
-		OR = {
-			has_idea_group = aristocracy_ideas
-			has_idea_group = horde_idea_groups_expanded
-		}
+		has_idea_group = horde_idea_groups_expanded
 	}
 	allow = {
 		full_idea_group = national_propaganda_idea_groups_expanded
-		OR = {
-			full_idea_group = aristocracy_ideas
-			full_idea_group = horde_idea_groups_expanded
-		}
+		full_idea_group = horde_idea_groups_expanded
+	}
+	
+	leader_land_shock = 1
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+ancestral_reverence_act = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = aristocracy_ideas
+	}
+	allow = {
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = aristocracy_ideas
 	}
 	
 	leader_land_shock = 1
@@ -798,19 +886,49 @@ clerical_education_act = {
 
 	potential = {
 		has_idea_group = national_propaganda_idea_groups_expanded
-		OR = {
-			has_idea_group = religious_ideas
-			has_idea_group = islam_idea_groups_expanded
-			has_idea_group = christian_idea_groups_expanded
-		}
+		has_idea_group = religious_ideas
 	}
 	allow = {
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = religious_ideas
+	}
+	
+	institution_spread_from_true_faith = 0.5
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+clerical_education_act = {
+	monarch_power = ADM
+
+	potential = {
 		has_idea_group = national_propaganda_idea_groups_expanded
-		OR = {
-			full_idea_group = religious_ideas
-			full_idea_group = islam_idea_groups_expanded
-			full_idea_group = christian_idea_groups_expanded
-		}
+		has_idea_group = muslim_idea_groups_expanded
+	}
+	allow = {
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = muslim_idea_groups_expanded
+	}
+	
+	institution_spread_from_true_faith = 0.5
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+clerical_education_act = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = national_propaganda_idea_groups_expanded
+		has_idea_group = christian_idea_groups_expanded
+	}
+	allow = {
+		full_idea_group = national_propaganda_idea_groups_expanded
+		full_idea_group = christian_idea_groups_expanded
 	}
 	
 	institution_spread_from_true_faith = 0.5
