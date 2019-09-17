@@ -195,11 +195,11 @@ militant_partisans_act = {
 
 	potential = {
 		has_idea_group = standing_army_idea_groups_expanded
-		has_idea_group = espionage_ideas
+		has_idea_group = spy_ideas
 	}
 	allow = {
 		full_idea_group = standing_army_idea_groups_expanded
-		full_idea_group = espionage_ideas
+		full_idea_group = spy_ideas
 	}
 	
 	rebel_support_efficiency = 0.25
@@ -513,11 +513,11 @@ counterintelligence_act = {
 
 	potential = {
 		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = espionage_ideas
+		has_idea_group = spy_ideas
 	}
 	allow = {
 		full_idea_group = state_affairs_idea_groups_expanded
-		full_idea_group = espionage_ideas
+		full_idea_group = spy_ideas
 	}
 	
 	global_spy_defence = 0.20
