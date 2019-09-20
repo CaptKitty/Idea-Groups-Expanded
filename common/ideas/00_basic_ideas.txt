@@ -1171,7 +1171,7 @@ imperial_idea_groups_expanded = {
 	trigger = {
 		government_rank = 3
 	}
-	
+
 	bonus = {
 		max_states = 5
 	}

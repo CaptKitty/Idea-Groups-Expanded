@@ -1475,6 +1475,47 @@ vassal_obligations_act = {
 	}
 }
 
+vassal_obligations_act = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = imperial_idea_groups_expanded
+		has_idea_group = economic_ideas
+	}
+	
+	allow = {
+		full_idea_group = imperial_idea_groups_expanded
+		full_idea_group = economic_ideas
+	}	
+	
+	vassal_income = 0.25
+	vassal_forcelimit_bonus = 1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { vassal = 1 }
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 2
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 3
+		}			
+		modifier = {
+			factor = 1.5
+			vassal = 4
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 5
+		}			
+	}
+}
+
 foreign_advisors = {
 	monarch_power = ADM
 	
@@ -1485,6 +1526,27 @@ foreign_advisors = {
 	
 	allow = {
 		full_idea_group = influence_ideas
+		full_idea_group = innovativeness_ideas
+	}	
+	
+	advisor_cost = -0.1
+	ae_impact = -0.1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+foreign_advisors = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = imperial_idea_groups_expanded
+		has_idea_group = innovativeness_ideas
+	}
+	
+	allow = {
+		full_idea_group = imperial_idea_groups_expanded
 		full_idea_group = innovativeness_ideas
 	}	
 	
@@ -1537,6 +1599,47 @@ vassal_integration_act = {
 	
 }
 
+vassal_integration_act = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = imperial_idea_groups_expanded
+		has_idea_group = administrative_ideas
+	}
+	
+	allow = {
+		full_idea_group = imperial_idea_groups_expanded
+		full_idea_group = administrative_ideas
+	}	
+	
+	diplomatic_annexation_cost = -0.2
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { vassal = 1 }
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 2
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 3
+		}			
+		modifier = {
+			factor = 1.5
+			vassal = 4
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 5
+		}			
+	}
+	
+}
+
 overseas_dominions = {
 	monarch_power = ADM
 	
@@ -1547,6 +1650,47 @@ overseas_dominions = {
 	
 	allow = {
 		full_idea_group = influence_ideas
+		full_idea_group = expansion_ideas
+	}	
+	
+	vassal_income = 0.25
+	global_tariffs = 0.1
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { vassal = 1 }
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 2
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 3
+		}			
+		modifier = {
+			factor = 1.5
+			vassal = 4
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 5
+		}			
+	}
+}
+
+overseas_dominions = {
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = imperial_idea_groups_expanded
+		has_idea_group = expansion_ideas
+	}
+	
+	allow = {
+		full_idea_group = imperial_idea_groups_expanded
 		full_idea_group = expansion_ideas
 	}	
 	
