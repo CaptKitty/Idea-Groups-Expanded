@@ -19,7 +19,6 @@ aristocracy_ideas = {
 	trigger = {
 		OR = {
 			has_government_attribute = enables_aristocratic_idea_group
-			government = theocracy
 			government = tribal
 		}
 		NOT = { has_reform = steppe_horde }
@@ -62,6 +61,56 @@ aristocracy_ideas = {
 	}
 }
 
+theocratic_idea_groups_expanded = {
+	category = MIL
+
+	bonus = {
+		missionaries = 1
+	}
+
+	trigger = {
+		government = theocracy
+	}
+	
+	knightly_duty = {
+		discipline = 0.025
+		cavalry_cost = -0.10
+	}
+	monastic_duties = {
+		tolerance_own = 1
+		development_cost = -0.10
+	}
+	for_god = {
+		prestige_from_land = 0.5
+		extra_manpower_at_religious_war = yes
+	}
+	holy_orders = {
+		diplomatic_reputation = 1
+		improve_relation_modifier = 0.15
+	}
+	herders_of_the_flock = {
+		infantry_power = 0.05
+		infantry_cost = -0.10
+	}
+	lingua_religione = {
+		culture_conversion_cost = -0.20
+	}
+	offer_absolution = {
+		reinforce_cost_modifier = -0.10
+		manpower_recovery_speed = 0.10
+	}
+	
+
+	ai_will_do = {
+		factor = 0.45
+		
+		modifier = {
+			factor = 0.5
+			is_subject = yes
+		}	
+	}
+}
+
 horde_idea_groups_expanded = {
 	category = MIL
 
@@ -78,7 +127,8 @@ horde_idea_groups_expanded = {
 		cav_to_inf_ratio = 0.15
 	}
 	direct_payment = {
-		loot_amount = 0.33
+		loot_amount = 0.25
+		manpower_recovery_speed = 0.10
 	}
 	swift_steeds = {
 		movement_speed = 0.10
@@ -218,7 +268,7 @@ religious_ideas = {
 		tolerance_own = 2
 		papal_influence = 2
 		devotion = 0.5
-		monthly_fervor_increase = 0.25
+		monthly_fervor_increase = 0.5
 		church_power_modifier = 0.1
 	}
 	religious_tradition = {
@@ -260,8 +310,8 @@ christian_idea_groups_expanded = {
 	}
 	religious_fervor = {
 		papal_influence = 2
-		church_power_modifier = 0.20
-		fervor = 0.5
+		church_power_modifier = 0.25
+		monthly_fervor_increase = 1
 		tolerance_own = 1
 	}
 	sacred_struggle = {
@@ -1019,11 +1069,53 @@ state_affairs_idea_groups_expanded = {
 	}
 	public_works = {
 		build_cost = -0.10
-		build_time = -0.10
+		build_time = -0.20
 	}
 	production_quotas = {
 		production_efficiency = 0.10
 		global_trade_goods_size_modifier = 0.05
+	}
+	
+
+	ai_will_do = {
+		factor = 0.5
+	}
+}
+
+power_projection_idea_groups_expanded = {
+	category = DIP
+
+	bonus = {
+		prestige = 1
+	}
+
+	trigger = {
+		always = yes
+	}
+	
+	long_echo = {
+		power_projection_from_insults = 0.5
+	}
+	soft_power = {
+		diplomatic_reputation = 2
+	}
+	foreign_influence = {
+		spy_offence = 0.30
+	}
+	global_navy = {
+		naval_forcelimit_modifier = 0.25
+	}
+	shock_marines = {
+		land_forcelimit_modifier = 0.10
+		movement_speed_onto_off_boat_modifier = -0.5
+	}
+	influencial_traders = {
+		placed_merchant_power = 5
+		embargo_efficiency = 0.50
+	}
+	far_and_wide = {
+		global_ship_trade_power = 0.25
+		trade_range_modifier = 0.33
 	}
 	
 
@@ -1052,16 +1144,17 @@ national_propaganda_idea_groups_expanded = {
 	}
 	cultural_superiority = {
 		culture_conversion_cost = -0.20
-		core_decay_on_your_own = -0.10
+		core_decay_on_your_own = -0.25
 	}
 	state_censorship = {
 		harsh_treatment_cost = -0.25
 	}
 	uniform_court = {
 		same_culture_advisor_cost = -0.15
+		advisor_pool = 1
 	}
 	nationalistic_spirit = {
-		ae_impact = -0.05
+		ae_impact = -0.10
 		unjustified_demands = -0.10
 	}
 	unwavering_spirit = {
@@ -1117,7 +1210,7 @@ influence_ideas = {
 	category = DIP
 
 	trigger = {
-		NOT = { government_rank = 3 }
+		always = yes
 	}
 	
 	bonus = {
@@ -1166,10 +1259,10 @@ influence_ideas = {
 }
 
 imperial_idea_groups_expanded = {
-	category = DIP
+	category = ADM
 
 	trigger = {
-		government_rank = 3
+		always = yes
 	}
 
 	bonus = {
@@ -1229,12 +1322,12 @@ standing_army_idea_groups_expanded = {
 		drill_gain_modifier = 0.25
 	}
 	modern_cannons = {
-		siege_ability = 0.10
+		siege_ability = 0.15
 		backrow_artillery_damage = 0.05
 	}
 	matchlock_formations = {
 		infantry_power = 0.05
-		fire_damage_received = -0.025
+		fire_damage_received = -0.05
 	}
 	regiment_logistics = {
 		land_maintenance_modifier = -0.05
@@ -1245,12 +1338,56 @@ standing_army_idea_groups_expanded = {
 	}
 	lessons_of_tradition = {
 		army_tradition_decay = -0.01
+		
 	}
 	meritocratic_promotion = {
 		may_recruit_female_generals = yes
 		leader_cost = -0.10
 	}
 	
+
+	ai_will_do = {
+		factor = 0.5
+	}
+}
+
+engineer_idea_groups_expanded = {
+	category = MIL
+
+	bonus = {
+		global_supply_limit_modifier = 0.33
+	}
+
+	trigger = {
+		always = yes
+	}
+	
+	vanguard_engineers = {
+		movement_speed = 0.20
+	}
+	engineer_lieutenants = {
+		leader_siege = 1
+	}
+	field_fortifications = {
+		shock_damage_received = -0.05
+		fire_damage_received = -0.05
+	}
+	roman_castrum = {
+		build_time = -0.25
+		defensiveness = 0.10
+	}
+	military_infrastructure = {
+		development_cost = -0.10
+		build_cost = -0.10
+	}
+	siege_camps = {
+		siege_ability = 0.10
+		land_attrition = -0.10
+	}
+	self_reliant_garrisons = {
+		fort_maintenance_modifier = -0.20
+		garrison_growth = 0.25
+	}
 
 	ai_will_do = {
 		factor = 0.5
