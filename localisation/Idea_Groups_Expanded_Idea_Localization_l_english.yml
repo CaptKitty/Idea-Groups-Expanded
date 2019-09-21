@@ -103,7 +103,7 @@
  benevolent_reputation_desc: "How lucky for all these countries to have the opportunity to rub shoulders with our legendary diplomats. It's considered to be a high honor to engage with us in diplomacy."
  
  standing_army_idea_groups_expanded: "Standing Army Ideas"
- standing_army_idea_groups_expanded_desc: "By increasing the intensity of combat exercises and raising our standards, we shall aim at producing the most disciplined army the world has ever seen."
+ standing_army_idea_groups_expanded_bonus: "Standing Army Ideas Bonus"
  military_drills: "Military Drills"
  military_drills_desc: "By increasing the intensity of combat exercises and raising our standards, we shall aim at producing the most disciplined army the world has ever seen."
  modern_cannons: "Modern Cannons"
@@ -122,6 +122,7 @@
  #V1.1
  
  engineer_idea_groups_expanded: "Engineering Ideas"
+ engineer_idea_groups_expanded_bonus: "Engineering Ideas Bonus"
  vanguard_engineers: "Vanguard Engineers"
  vanguard_engineers_desc: "A vanguard that will clear the obstacles and build makeshift bridges along creeks, rivers and secure a safe path through the woods and crush any ambush parties."
  engineer_lieutenants: "Engineer Lieutenants"
@@ -129,7 +130,8 @@
  field_fortifications: "Field Fortifications"
  field_fortifications_desc: "By setting up stakes, ditches, trenches and earthworks we can break any cavalry charge and prevent our troops from being sitting ducks against enemy cannonfire."
  roman_castrum: "Roman Castrum"
- roman_castrum_desc: "Just like the Romans did, let us train our troops in raising fortifications at a moments notice to ensure theirs and the people's defense. Their experience will make them excellent engineers and garrison troops, both in and out of our service."
+ roman_castrum_desc: "§YMechanic: States with Forts get §G-0.10§! Devastation per month§!"
+ #roman_castrum_desc: "Just like the Romans did, let us train our troops in raising fortifications at a moments notice to ensure theirs and the people's defense. Their experience will make them excellent engineers and garrison troops, both in and out of our service."
  military_infrastructure: "Military Infrastructure"
  military_infrastructure_desc: "By building Roads and fortifications at regular intervals, our people can rest easily and are more likely to strike out and live in the lands we prepared for them."
  siege_camps: "Siege Camps"
@@ -138,6 +140,7 @@
  self_reliant_garrisons_desc: "The engineering experience our troops have aquired during their years working alongside engineering companies will ensure they can keep the forts in peak condition without the need to bring in trained and expensive craftsmen"
  
  theocratic_idea_groups_expanded: "Theocratic Ideas"
+ theocratic_idea_groups_expanded_bonus: "Theocratic Ideas Bonus"
  knightly_duty: "Knightly Duty"
  knightly_duty_desc: "Many of the brothers of our orders come from noble descent and have a past filled with strict military training, let us use their devotion to inspire our lowborn brothers to greatness."
  monastic_duties: "Monastic Duty"
@@ -154,6 +157,7 @@
  offer_absolution_desc: "Let us offer Absolution to those that have killed other men without justification, their service will grant our order cheap fodder, as well as save their souls."
 
  power_projection_idea_groups_expanded: "Power Projection Ideas"
+ power_projection_idea_groups_expanded_bonus: "Power Projection Ideas Bonus"
  long_echo: "Long Echo" 
  long_echo_desc: "Our presence in the international stage is never taken lightly. Rival leaders grow pale at the sight of our diplomats and our seat at the strategic table is seen as powerful and ever dominant."
  soft_power: "Soft Power"
@@ -238,6 +242,10 @@
  high_seas_act: "High Seas Act"
  impressive_roads_act: "Impressive Roads Act"
  foreign_drill_instructors_act: "Foreign Drill Instructors Act"
+ 
+ 
+ 
+ 
  
  
  

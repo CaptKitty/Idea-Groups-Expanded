@@ -1152,7 +1152,7 @@ a_place_in_the_sun_act = {
 	}
 	
 	ae_impact = -0.10
-	war_exhaustion = -0.0025
+	war_exhaustion = -0.025
 
 	ai_will_do = {
 		factor = 1
