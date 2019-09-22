@@ -970,27 +970,6 @@ the_foreign_aid_act = {
 	}
 }
 
-the_foreign_aid_act = {
-	monarch_power = DIP
-	
-	potential = {
-		has_idea_group = humanist_ideas
-		has_idea_group = imperial_idea_groups_expanded
-	}
-	
-	allow = {
-		full_idea_group = humanist_ideas
-		full_idea_group = imperial_idea_groups_expanded
-	}	
-	
-	diplomatic_upkeep = 1
-	diplomatic_reputation = 1
-	
-	ai_will_do = {
-		factor = 0.9
-	}
-}
-
 cultural_unity = {
 	monarch_power = DIP
 	
@@ -1001,26 +980,6 @@ cultural_unity = {
 	
 	allow = {
 		full_idea_group = influence_ideas
-		full_idea_group = muslim_idea_groups_expanded
-	}
-	
-	culture_conversion_cost = -0.2
-	
-	ai_will_do = {
-		factor = 0.6
-	}
-}
-
-cultural_unity = {
-	monarch_power = DIP
-	
-	potential = {
-		has_idea_group = imperial_idea_groups_expanded
-		has_idea_group = muslim_idea_groups_expanded
-	}
-	
-	allow = {
-		full_idea_group = imperial_idea_groups_expanded
 		full_idea_group = muslim_idea_groups_expanded
 	}
 	
@@ -1055,52 +1014,12 @@ cultural_unity = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = imperial_idea_groups_expanded
-		has_idea_group = christian_idea_groups_expanded
-	}
-	
-	allow = {
-		full_idea_group = imperial_idea_groups_expanded
-		full_idea_group = christian_idea_groups_expanded
-	}
-	
-	culture_conversion_cost = -0.2
-	
-	ai_will_do = {
-		factor = 0.6
-	}
-}
-
-cultural_unity = {
-	monarch_power = DIP
-	
-	potential = {
 		has_idea_group = influence_ideas
 		has_idea_group = religious_ideas
 	}
 	
 	allow = {
 		full_idea_group = influence_ideas
-		full_idea_group = religious_ideas
-	}
-	
-	culture_conversion_cost = -0.2
-	
-	ai_will_do = {
-		factor = 0.6
-	}
-}
-
-cultural_unity = {
-	monarch_power = DIP
-	
-	potential = {
-		has_idea_group = imperial_idea_groups_expanded
-		has_idea_group = religious_ideas
-	}
-	
-	allow = {
-		full_idea_group = imperial_idea_groups_expanded
 		full_idea_group = religious_ideas
 	}
 	

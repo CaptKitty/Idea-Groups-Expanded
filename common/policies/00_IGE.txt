@@ -547,25 +547,6 @@ overseas_administration_act = {
 		factor = 1
 	}
 }
-court_embassy_act = {
-	monarch_power = ADM
-
-	potential = {
-		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = imperial_idea_groups_expanded
-	}
-	allow = {
-		full_idea_group = state_affairs_idea_groups_expanded
-		full_idea_group = imperial_idea_groups_expanded
-	}
-	
-	diplomatic_annexation_cost = -0.10
-	diplomats = 1
-
-	ai_will_do = {
-		factor = 1
-	}
-}
 
 court_embassy_act = {
 	monarch_power = ADM
@@ -1139,25 +1120,6 @@ global_relief_funds_act = {
 	}
 }
 
-a_place_in_the_sun_act = {
-	monarch_power = DIP
-
-	potential = {
-		has_idea_group = imperial_idea_groups_expanded
-		has_idea_group = power_projection_idea_groups_expanded
-	}
-	allow = {
-		full_idea_group = imperial_idea_groups_expanded
-		full_idea_group = power_projection_idea_groups_expanded
-	}
-	
-	ae_impact = -0.10
-	war_exhaustion = -0.025
-
-	ai_will_do = {
-		factor = 1
-	}
-}
 
 noble_privileges_act = {
 	monarch_power = MIL
@@ -1692,6 +1654,146 @@ foreign_engineers_act = {
 		factor = 1
 	}
 }
+
+###############################################
+
+imperial_diplomats_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = diplomatic_ideas
+		has_idea_group = imperial_idea_groups_expanded
+	}
+	allow = {
+		full_idea_group = diplomatic_ideas
+		full_idea_group = imperial_idea_groups_expanded
+	}
+	
+	envoy_travel_time = -0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+state_spycraft_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = spy_ideas
+		has_idea_group = imperial_idea_groups_expanded
+	}
+	allow = {
+		full_idea_group = spy_ideas
+		full_idea_group = imperial_idea_groups_expanded
+	}
+	
+	fabricate_claims_cost = -0.25
+	diplomats = 1
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+efficienct_subject_development_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = influence_ideas
+		has_idea_group = imperial_idea_groups_expanded
+	}
+	allow = {
+		full_idea_group = influence_ideas
+		full_idea_group = imperial_idea_groups_expanded
+	}
+	
+	liberty_desire_from_subject_development = -0.25
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+state_domain_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = power_projection_idea_groups_expanded
+		has_idea_group = imperial_idea_groups_expanded
+	}
+	allow = {
+		full_idea_group = power_projection_idea_groups_expanded
+		full_idea_group = imperial_idea_groups_expanded
+	}
+	
+	ae_impact = -0.10
+	max_states = 3
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+magnificent_naval_forces_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = maritime_ideas
+		has_idea_group = imperial_idea_groups_expanded
+	}
+	allow = {
+		full_idea_group = maritime_ideas
+		full_idea_group = imperial_idea_groups_expanded
+	}
+	
+	naval_forcelimit_modifier = 0.33
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+continental_trade_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = trade_ideas
+		has_idea_group = imperial_idea_groups_expanded
+	}
+	allow = {
+		full_idea_group = trade_ideas
+		full_idea_group = imperial_idea_groups_expanded
+	}
+	
+	trade_range_modifier = 0.33
+	global_foreign_trade_power = 0.15
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+native_rights_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = exploration_ideas
+		has_idea_group = imperial_idea_groups_expanded
+	}
+	allow = {
+		full_idea_group = exploration_ideas
+		full_idea_group = imperial_idea_groups_expanded
+	}
+	
+	native_uprising_chance = -0.50
+	global_colonial_growth = 0.10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
 
 
 
