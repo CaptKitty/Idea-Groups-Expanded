@@ -1295,7 +1295,7 @@ imperial_idea_groups_expanded = {
 	}
 	benign_legislation = {
 		reduced_liberty_desire = 5
-		diplomatic_annexation_cost = -0.15
+		#diplomatic_annexation_cost = -0.15
 	}
 	benevolent_reputation = {
 		diplomatic_reputation = 1

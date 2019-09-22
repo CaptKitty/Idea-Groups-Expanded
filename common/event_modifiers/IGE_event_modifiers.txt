@@ -8,3 +8,6 @@ IGE_Legalism = {
 Roman_Castrum = {
 	local_monthly_devastation = -0.10
 }
+benign_legislation_act = {
+	global_tax_modifier = 0.20
+}

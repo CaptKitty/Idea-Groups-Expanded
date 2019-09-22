@@ -239,4 +239,18 @@ spriteTypes = {
 		
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_idea_engineer_idea_groups_expanded"
+		texturefile = "gfx//interface//ideas//idea_engineer_idea_groups_expanded.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_power_projection_idea_groups_expanded"
+		texturefile = "gfx//interface//ideas//idea_power_projection_idea_groups_expanded.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 }

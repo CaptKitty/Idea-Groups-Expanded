@@ -98,7 +98,8 @@
  supreme_authority: "Supreme Authority"
  supreme_authority_desc: "I am the Senate!"
  benign_legislation: "Benign Legislation"
- benign_legislation_desc: "By applying soft influence on our vassals, we shall aspire to building ourselves an image of benevolence and warmth. That would surely calm them and guarantee their compliance."
+ benign_legislation_desc: "§YMechanic: Non-Colonial Subjects get §G20%§! National Tax Modifier§!"
+ #benign_legislation_desc: "By applying soft influence on our vassals, we shall aspire to building ourselves an image of benevolence and warmth. That would surely calm them and guarantee their compliance."
  benevolent_reputation: "Benevolent Reputation"
  benevolent_reputation_desc: "How lucky for all these countries to have the opportunity to rub shoulders with our legendary diplomats. It's considered to be a high honor to engage with us in diplomacy."
  
@@ -243,20 +244,19 @@
  impressive_roads_act: "Impressive Roads Act"
  foreign_drill_instructors_act: "Foreign Drill Instructors Act"
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ engineer_cranes_act: "Engineer Cranes Act"
+ religious_site_preservation_act: "Religious Site Preservation Act"
+ ingenious_manufactoring_act: "Ingenious Manufactoring Act"
+ innovative_native_centre_act: "Innovative Native Centre Act"
+ improved_logistics_act: "Improved Logistics Act"
+ alm_centers_act: "Alm Centers Act"
+ state_expansion_act: "State Expansion Act"
+ neo_feudal_system_act: "Neo-Feudal System Act"
+ expanded_embassies_act: "Expanded Embassies Act"
+ cross_state_integration_act: "Cross State Integration Act"
+ reinforced_hull_explorers_act: "Reinforced Hull Explorers Act"
+ state_dockyard_act: "State Dockyard Act"
+ merchant_routes_act: "Merchant Routes Act"
+ foreign_engineers_act: "Foreign Engineers Act"
  
  
