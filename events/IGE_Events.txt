@@ -22,7 +22,7 @@ country_event = {
 	}
 	
 	option = {
-		name = DVE_Events.1.a
+		name = IGE_Events.1.a
 		add_ruler_modifier = {
 			name = "IGE_Jihad"
 			duration = -1
@@ -30,7 +30,7 @@ country_event = {
 	}
 	
 	option = {
-		name = DVE_Events.1.b
+		name = IGE_Events.1.b
 		add_ruler_modifier = {
 			name = "IGE_Legalism"
 			duration = -1

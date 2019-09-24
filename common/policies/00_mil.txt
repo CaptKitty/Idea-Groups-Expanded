@@ -327,12 +327,12 @@ military_zeal_act = {
 	
 	potential = {
 		has_idea_group = quality_ideas
-		has_idea_group = islam_idea_groups_expanded
+		has_idea_group = muslim_idea_groups_expanded
 	}
 	
 	allow = {
 		full_idea_group = quality_ideas
-		full_idea_group = islam_idea_groups_expanded
+		full_idea_group = muslim_idea_groups_expanded
 	}
 	
 	land_morale = 0.05
@@ -347,7 +347,7 @@ military_zeal_act = {
 	}
 }
 
-military_zeal_act = {
+military_zeal_act_1 = {
 	monarch_power = MIL
 	
 	potential = {
@@ -372,7 +372,7 @@ military_zeal_act = {
 	}
 }
 
-military_zeal_act = {
+military_zeal_act_2 = {
 	monarch_power = MIL
 	
 	potential = {
@@ -401,12 +401,12 @@ field_priests = {
 	monarch_power = MIL
 
 	potential = {
-		has_idea_group = islam_idea_groups_expanded
+		has_idea_group = muslim_idea_groups_expanded
 		has_idea_group = quantity_ideas
 	}
 	
 	allow = {
-		full_idea_group = islam_idea_groups_expanded
+		full_idea_group = muslim_idea_groups_expanded
 		full_idea_group = quantity_ideas
 	}
 
@@ -422,7 +422,7 @@ field_priests = {
 	}
 }
 
-field_priests = {
+field_priests_1 = {
 	monarch_power = MIL
 
 	potential = {
@@ -447,7 +447,7 @@ field_priests = {
 	}
 }
 
-field_priests = {
+field_priests_2 = {
 	monarch_power = MIL
 
 	potential = {
@@ -601,7 +601,7 @@ the_tenures_abolition_act = {
 	}	
 }
 
-the_tenures_abolition_act = {
+the_tenures_abolition_act_1 = {
 	monarch_power = MIL
 
 	potential = {
@@ -710,12 +710,12 @@ zealous_captains = {
 	
 	potential = {
 		has_idea_group = naval_ideas
-		has_idea_group = islam_idea_groups_expanded
+		has_idea_group = muslim_idea_groups_expanded
 	}
 	
 	allow = {
 		full_idea_group = naval_ideas
-		full_idea_group = islam_idea_groups_expanded
+		full_idea_group = muslim_idea_groups_expanded
 	}	
 	
 	sunk_ship_morale_hit_recieved = -0.10
@@ -734,7 +734,7 @@ zealous_captains = {
 	}
 }
 
-zealous_captains = {
+zealous_captains_1 = {
 	monarch_power = MIL
 	
 	potential = {
@@ -763,7 +763,7 @@ zealous_captains = {
 	}
 }
 
-zealous_captains = {
+zealous_captains_2 = {
 	monarch_power = MIL
 	
 	potential = {
@@ -792,7 +792,7 @@ zealous_captains = {
 	}
 }
 
-autonomous_estates = {
+autonomous_estates_4 = {
 	monarch_power = MIL
 	
 	potential = {
@@ -833,7 +833,7 @@ autonomous_estates = {
 	}
 }
 
-autonomous_estates = {
+autonomous_estates_1 = {
 	monarch_power = MIL
 	
 	potential = {
@@ -874,7 +874,7 @@ autonomous_estates = {
 	}
 }
 
-autonomous_estates = {
+autonomous_estates_2 = {
 	monarch_power = MIL
 	
 	potential = {
@@ -915,7 +915,7 @@ autonomous_estates = {
 	}
 }
 
-autonomous_estates = {
+autonomous_estates_3 = {
 	monarch_power = MIL
 	
 	potential = {
@@ -1051,7 +1051,7 @@ local_militias = {
 	}
 }
 
-local_militias = {
+local_militias_1 = {
 	monarch_power = MIL
 	
 	potential = {
@@ -1113,7 +1113,7 @@ foreign_conscription_centers = {
 	}
 }
 
-foreign_conscription_centers = {
+foreign_conscription_centers_1 = {
 	monarch_power = MIL
 	
 	potential = {
@@ -1175,7 +1175,7 @@ guerilla_warfare = {
 	}
 }
 
-guerilla_warfare = {
+guerilla_warfare_1 = {
 	monarch_power = MIL
 	
 	potential = {
@@ -1255,7 +1255,7 @@ noble_loyalty_act = {
 	}
 }
 
-noble_loyalty_act = {
+noble_loyalty_act_1 = {
 	monarch_power = MIL
 
 	potential = {
@@ -1310,7 +1310,7 @@ the_colonial_nobility_act = {
 	}
 }
 
-the_colonial_nobility_act = {
+the_colonial_nobility_act_1 = {
 	monarch_power = MIL
 	potential = {
 		has_idea_group = aristocracy_ideas
@@ -1352,7 +1352,7 @@ nobles_in_navy_act = {
 	}
 }
 
-nobles_in_navy_act = {
+nobles_in_navy_act_1 = {
 	monarch_power = MIL
 	potential = {
 		has_idea_group = aristocracy_ideas

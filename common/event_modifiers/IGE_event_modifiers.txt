@@ -3,7 +3,6 @@ IGE_Jihad = {
 }
 IGE_Legalism = {
 	monthly_piety = 0.0025
-	tolerance_own = -1
 }
 Roman_Castrum = {
 	local_monthly_devastation = -0.10

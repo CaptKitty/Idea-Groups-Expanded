@@ -37,7 +37,7 @@ the_combination_act = {
 	}
 }
 
-the_combination_act = {
+the_combination_act_1 = {
 	monarch_power = ADM
 
 	potential = {
@@ -128,7 +128,7 @@ the_court_of_wards_and_liveries = {
 	}
 }
 
-the_court_of_wards_and_liveries = {
+the_court_of_wards_and_liveries_1 = {
 	monarch_power = ADM
 
 	potential = {
@@ -302,7 +302,7 @@ manueline_architecture = {
 	}
 }
 
-manueline_architecture = {
+manueline_architecture_1 = {
 	monarch_power = ADM
 
 	potential = {
@@ -388,7 +388,7 @@ edict_of_resistance = {
 
 }
 
-edict_of_resistance = {
+edict_of_resistance_1 = {
 	monarch_power = ADM
 
 	potential = {
@@ -428,7 +428,7 @@ edict_of_resistance = {
 
 }
 
-edict_of_resistance = {
+edict_of_resistance_2 = {
 	monarch_power = ADM
 
 	potential = {
@@ -573,7 +573,7 @@ enforce_religious_law = {
 	}
 }
 
-enforce_religious_law = {
+enforce_religious_law_1 = {
 	monarch_power = ADM
 
 	potential = {
@@ -614,7 +614,7 @@ enforce_religious_law = {
 	}
 }
 
-enforce_religious_law = {
+enforce_religious_law_2 = {
 	monarch_power = ADM
 
 	potential = {
@@ -696,7 +696,7 @@ the_tolerance_act = {
 	}
 }
 
-the_tolerance_act = {
+the_tolerance_act_1 = {
 	monarch_power = ADM
 
 	potential = {
@@ -737,7 +737,7 @@ the_tolerance_act = {
 	}
 }
 
-the_tolerance_act = {
+the_tolerance_act_2 = {
 	monarch_power = ADM
 
 	potential = {
@@ -937,7 +937,7 @@ the_witchcraft_act = {
 	}
 }
 
-the_witchcraft_act = {
+the_witchcraft_act_1 = {
 	monarch_power = ADM
 
 	potential = {
@@ -995,7 +995,7 @@ the_witchcraft_act = {
 	}
 }
 
-the_witchcraft_act = {
+the_witchcraft_act_2 = {
 	monarch_power = ADM
 
 	potential = {
@@ -1053,7 +1053,7 @@ the_witchcraft_act = {
 	}
 }
 
-the_witchcraft_act = {
+the_witchcraft_act_3 = {
 	monarch_power = ADM
 
 	potential = {
@@ -1111,7 +1111,7 @@ the_witchcraft_act = {
 	}
 }
 
-the_witchcraft_act = {
+the_witchcraft_act_4 = {
 	monarch_power = ADM
 
 	potential = {
@@ -1169,7 +1169,7 @@ the_witchcraft_act = {
 	}
 }
 
-the_witchcraft_act = {
+the_witchcraft_act_5 = {
 	monarch_power = ADM
 
 	potential = {
@@ -1290,7 +1290,7 @@ policy_of_calculate_delay = {
 	}
 }
 
-policy_of_calculate_delay = {
+policy_of_calculate_delay_1 = {
 	monarch_power = ADM
 	potential = {
 		has_idea_group = christian_idea_groups_expanded
@@ -1331,7 +1331,7 @@ policy_of_calculate_delay = {
 	}
 }
 
-policy_of_calculate_delay = {
+policy_of_calculate_delay_2 = {
 	monarch_power = ADM
 	potential = {
 		has_idea_group = religious_ideas
@@ -1641,7 +1641,7 @@ enlightened_aristocracy = {
 	}
 }
 
-enlightened_aristocracy = {
+enlightened_aristocracy_1 = {
 	monarch_power = ADM
 	
 	potential = {
@@ -1930,7 +1930,7 @@ the_licensing_of_the_press_act = {
 	}	
 }
 
-the_licensing_of_the_press_act = {
+the_licensing_of_the_press_act_1 = {
 	monarch_power = ADM
 
 	potential = {
@@ -2287,7 +2287,7 @@ church_sponsored_guilds = {
 	}
 }
 
-church_sponsored_guilds = {
+church_sponsored_guilds_1 = {
 	monarch_power = ADM
 
 	potential = {
@@ -2328,7 +2328,7 @@ church_sponsored_guilds = {
 	}
 }
 
-church_sponsored_guilds = {
+church_sponsored_guilds_2 = {
 	monarch_power = ADM
 
 	potential = {
@@ -2410,7 +2410,7 @@ anti_heresy_act = {
 	}
 }
 
-anti_heresy_act = {
+anti_heresy_act_1 = {
 	monarch_power = ADM
 	
 	potential = {
@@ -2451,7 +2451,7 @@ anti_heresy_act = {
 	}
 }
 
-anti_heresy_act = {
+anti_heresy_act_2 = {
 	monarch_power = ADM
 	
 	potential = {

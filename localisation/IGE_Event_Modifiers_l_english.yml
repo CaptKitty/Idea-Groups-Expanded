@@ -1,12 +1,12 @@
 ﻿l_english:
  IGE_Events.1.t:0 "Path to Kingship"
  IGE_Events.1.d:0 "Pick Your Path To Kingship"
- IGE_Events.1.a:0 "Spread the Word"
- IGE_Events.1.b:0 "Spread the Peace"
+ IGE_Events.1.a: "Spread the Word"
+ IGE_Events.1.b: "Spread the Peace"
  IGE_Jihad:0 "Jihad"
- IGE_Jihad:0 "Allahu Akbar"
+ IGE_Jihad:0 "Path of War"
  IGE_Legalism:0 "Legalism"
- IGE_Legalism:0 "Allahu Akbar"
+ IGE_Legalism:0 "Path of Peace"
  
  Roman_Castrum: "Roman Castrum"
  desc_Roman_Castrum: "Our engineers have allowed the local population to maintain in the face of the horrors of war"
