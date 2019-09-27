@@ -1,0 +1,14 @@
+﻿l_german:
+ IGE_Events.1.t:0 "Weg zum Königtum"
+ IGE_Events.1.d:0 "Wähle deinen Weg zum Königtum"
+ IGE_Events.1.a: "Verbreiten Sie das Wort"
+ IGE_Events.1.b: "Den Frieden verbreiten"
+ IGE_Jihad:0 "Dschihad"
+ IGE_Jihad:0 "Kriegspfad"
+ IGE_Legalism:0 "Juristenjargon"
+ IGE_Legalism:0 "Weg des Friedens"
+ 
+ Roman_Castrum: "Römische Castrum"
+ desc_Roman_Castrum: "Unsere Ingenieure haben es der lokalen Bevölkerung ermöglicht, angesichts der Schrecken des Krieges zu überleben."
+ benign_legislation_act: "Gutartige Gesetzgebung"
+ desc_benign_legislation_act: "Unsere gutartige Gesetzgebung unterstützt den Wohlstand unseres Reiches, Lobet Jay."

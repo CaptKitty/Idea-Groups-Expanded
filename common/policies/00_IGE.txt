@@ -36,7 +36,7 @@ got_mit_und_act = {
 	}
 }
 
-got_mit_und_act = {
+got_mit_und_act_1 = {
 	monarch_power = MIL
 
 	potential = {
@@ -55,7 +55,7 @@ got_mit_und_act = {
 	}
 }
 
-got_mit_und_act = {
+got_mit_und_act_2 = {
 	monarch_power = MIL
 
 	potential = {
@@ -250,7 +250,7 @@ noble_generals_act = {
 	}
 }
 
-noble_generals_act = {
+noble_generals_act_1 = {
 	monarch_power = MIL
 
 	potential = {
@@ -349,7 +349,7 @@ noble_administrators_act = {
 	}
 }
 
-noble_administrators_act = {
+noble_administrators_act_1 = {
 	monarch_power = ADM
 
 	potential = {
@@ -646,7 +646,7 @@ ancestral_reverence_act = {
 	}
 }
 
-ancestral_reverence_act = {
+ancestral_reverence_act_1 = {
 	monarch_power = MIL
 
 	potential = {
@@ -881,7 +881,7 @@ clerical_education_act = {
 	}
 }
 
-clerical_education_act = {
+clerical_education_act_1 = {
 	monarch_power = ADM
 
 	potential = {
@@ -900,7 +900,7 @@ clerical_education_act = {
 	}
 }
 
-clerical_education_act = {
+clerical_education_act_2 = {
 	monarch_power = ADM
 
 	potential = {
@@ -981,7 +981,7 @@ religious_propagation_act = {
 	}
 }
 
-religious_propagation_act = {
+religious_propagation_act_1 = {
 	monarch_power = ADM
 
 	potential = {
@@ -1001,7 +1001,7 @@ religious_propagation_act = {
 	}
 }
 
-religious_propagation_act = {
+religious_propagation_act_2 = {
 	monarch_power = ADM
 
 	potential = {
@@ -1378,7 +1378,7 @@ religious_site_preservation_act = {
 	}
 }
 
-religious_site_preservation_act = {
+religious_site_preservation_act_1 = {
 	monarch_power = ADM
 
 	potential = {
@@ -1397,7 +1397,7 @@ religious_site_preservation_act = {
 	}
 }
 
-religious_site_preservation_act = {
+religious_site_preservation_act_2 = {
 	monarch_power = ADM
 
 	potential = {
@@ -1654,8 +1654,6 @@ foreign_engineers_act = {
 		factor = 1
 	}
 }
-
-###############################################
 
 imperial_diplomats_act = {
 	monarch_power = DIP
