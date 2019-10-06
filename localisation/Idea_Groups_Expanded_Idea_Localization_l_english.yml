@@ -326,23 +326,24 @@
  religious_site_preservation_act_1: "Religious Site Preservation Act"
  religious_site_preservation_act_2: "Religious Site Preservation Act"
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ clerical_scientist_act: "Clerical Science Act"
+ holy_conversion_act: "Holy Conversion Act"
+ jihad_act: "Jihad Act"
+ holy_war_act: "Holy War Act"
+ parish_engagement_act: "Parish Engagement Act"
+ holy_orders_act: "Holy Orders Act"
+ holy_integration_act: "Holy Integration Act"
+ skilled_administrators_act: "Skilled Administrators Act"
+ equality_for_all_religions_act: "Equality for all Religions Act"
+ divine_right_act: "Divine Right Act"
+ enlist_defector_act: "Enlist Defector Act"
+ international_network_act: "International Network Act"
+ monastic_production_centers_act: "Monastic Production Centers Act"
+ global_missionary_act: "Global Missionary Act"
+ holy_loot_act: "Holy Loot Act"
+ international_support_act: "International Support Act"
+ national_sentiment_act: "National Sentiment Act"
+ pious_subjects_act: "Pious Subjects Act"
  
  
  

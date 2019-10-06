@@ -7,7 +7,6 @@
 # ROOT = country picking the idea
 # groups set to colonial=yes will be higher prioritized by the AI when spending power
 
- #NEEDSLOC to find no-locs #byJay
 
 aristocracy_ideas = {
 	category = MIL
@@ -69,7 +68,10 @@ theocratic_idea_groups_expanded = {
 	}
 
 	trigger = {
-		government = theocracy
+		OR = {
+			has_government_attribute = enables_theocratic_idea_group
+			government = theocracy
+		}
 	}
 	
 	knightly_duty = {
@@ -1094,23 +1096,24 @@ power_projection_idea_groups_expanded = {
 	}
 	
 	long_echo = {
-		power_projection_from_insults = 0.5
+		power_projection_from_insults = 0.5	
 	}
 	soft_power = {
 		diplomatic_reputation = 2
 	}
 	foreign_influence = {
 		spy_offence = 0.30
+		land_maintenance_modifier = -0.05
 	}
 	global_navy = {
-		naval_forcelimit_modifier = 0.25
+		naval_forcelimit_modifier = 0.35
 	}
 	shock_marines = {
-		land_forcelimit_modifier = 0.10
+		discipline = 0.025
 		movement_speed_onto_off_boat_modifier = -0.5
 	}
 	influencial_traders = {
-		placed_merchant_power = 5
+		placed_merchant_power = 10
 		embargo_efficiency = 0.50
 	}
 	far_and_wide = {
@@ -1128,7 +1131,7 @@ national_propaganda_idea_groups_expanded = {
 	category = DIP
 
 	bonus = {
-		global_spy_defence = 0.15
+		global_spy_defence = 0.20
 	}
 
 	trigger = {
@@ -1150,7 +1153,7 @@ national_propaganda_idea_groups_expanded = {
 		harsh_treatment_cost = -0.25
 	}
 	uniform_court = {
-		same_culture_advisor_cost = -0.15
+		same_culture_advisor_cost = -0.25
 		advisor_pool = 1
 	}
 	nationalistic_spirit = {
