@@ -378,6 +378,52 @@ muslim_idea_groups_expanded = {
 	}
 }
 
+confucian_idea_groups_expanded = {
+    category = ADM
+
+    bonus = {
+        tolerance_own = 1
+        #Book of Rites describes the social forms, administration, and ceremonial rites of the Zhou Dynasty. This social vision defined society not as an adversarial system based on contractual relations but as a community of trust based on social responsibility. The four functional occupations are cooperative (farmer, scholar, artisan, merchant). - Wikipedia
+    }
+
+    trigger = {
+        religion = confucianism 
+    }
+
+    confucian_ideas_wuchang = {
+        harmonization_speed = 0.25
+        #buffed from 15% (sug. by MJ-Moore)
+
+        #lowers harmonization time from 34 years to 27.2
+        #i.e. lowers by about 6.8 years per harmonization
+        #or saves 68 years if harmonizing every group
+    }
+    confucian_ideas_classics = {
+        tolerance_own = 1
+		tolerance_heretic = 1
+    }
+    confucian_ideas_syncretic = {
+        improve_relation_modifier = 0.25
+    }
+    confucian_ideas_axis_munid = {
+        stability_cost_modifier = -0.25
+    }
+    confucian_ideas_ancestral_shrines = {
+        build_cost = -0.2
+    }
+    confucian_ideas_meritocracy = {
+        meritocracy = 0.5
+        advisor_cost = -0.20
+    }
+    confucian_ideas_social_harmony = {
+        yearly_harmony = 0.3
+    }
+
+    ai_will_do = {
+        factor = 0.5
+    }
+}
+
 spy_ideas = {
 	category = DIP
 

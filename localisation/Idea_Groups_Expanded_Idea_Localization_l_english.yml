@@ -174,7 +174,24 @@
  far_and_wide: "Far and Wide"
  far_and_wide_desc: "Truly, our Merchant navy shall reach the edges of the globe. New goods and never before seen ingredients make their way into and through our markets thanks to our unprecedented mercantile reach."
  
- 
+ #V1.2
+ confucian_idea_groups_expanded: "Confucian Ideas"
+ confucian_idea_groups_expanded_bonus: "Fully Harmonius"
+ confucian_ideas_wuchang: "Wucháng"
+ confucian_ideas_wuchang_desc: "The Five Constants, or Wucháng, are the ethical codes of Confucianism. These Five Constants are:\nRén, Humaneness\nYì, Righteousness\nLi, Proper Rite\nZhì, Knowledge and\nXìn, Integrity.\nThese codes have been elaborated on since the times of the Han, are described as very humanistic."
+ confucian_ideas_classics: "Study the Five Classics"
+ confucian_ideas_classics_desc: "Confucius wrote and edited the primary texts of Confucianism over a thousand years ago. They have since been discussed, studied, and interpreted ten thousand and more times. Perhaps we could share his enlightment with the blessed foreigners in our lands."
+ confucian_ideas_syncretic: "Syncretic Philosophy"
+ confucian_ideas_syncretic_desc: "Confucianism does not strictly fall under the Western conception of 'Religion.' The varied schools of thought of Confucianism can place it in the spiritual side of things, or the pragmatic side. In either case, the values of Confucianism are not in direct opposition to the Religions of Mohammaed, Jesus, or Buddah."
+ confucian_ideas_axis_munid: "Axis Mundi"
+ confucian_ideas_axis_munid_desc: "Central authority and obedience is emphasized in Confucian belief, as it is the the King who can keep order within a country. It is their job to keep things running smoothly and thus, as the greatest authority of the land, they are the greatest bringer of harmony, thus making them the closest to the Divine."
+ confucian_ideas_ancestral_shrines: "Ancestral Shrines"
+ confucian_ideas_ancestral_shrines_desc: "Ancestral shrines and ancestral deification is closely linked to the Confucian ideal of Filial Piety, which is the Virtue of respecting elders and ancestors. Temples for these purposes are commonplace throughout China."
+ confucian_ideas_meritocracy: "Nobility by Virtue"
+ confucian_ideas_meritocracy_desc: "In teaching, there should be no distinction of classes.\n-Analects 15.39"
+ confucian_ideas_social_harmony: "Social Harmony"
+ confucian_ideas_social_harmony_desc: "It is only when every individual knows their place in the world that harmony can truly be expressed. The young should respect their elders, husbands and wives should act properly to each other, and friendships should be treated with mutuality."
+
  
  
  
@@ -344,6 +361,43 @@
  international_support_act: "International Support Act"
  national_sentiment_act: "National Sentiment Act"
  pious_subjects_act: "Pious Subjects Act"
+ 
+ live_and_let_live_act: "Live and Let Live Act"
+ soft_power_act: "Soft Power Act"
+ benevolent_power_act: "Benevolent Power Act"
+ national_unity_act: "National Unity Act"
+ peacefull_colonization_act: "Peacefull Colonization Act"
+ ninja_act: "Ninja Act"
+ treasure_fleet_act: "Treasure Fleet Act"
+ peacefull_trading_act: "Peacefull Trading Act"
+ educated_nobility_act: "Educated Nobility Act"
+ kalmyk_act: "Kalmyk Act"
+ holy_council_act: "Holy Council Act"
+ generic_act_1: "Generic Act"
+ wei_suo_act: "Wei Suo Act"
+ warrior_poets_act: "Warrior Poets Act"
+ tranquil_defence_act: "Tranquil Defence Act"
+ dragon_cannon_act: "Dragon Cannon Act"
+ military_mobility_act: "Military Mobility Act"
+ great_wall_act: "Great Wall Act"
+ coastal_patrols_act: "Coastal Patrols Act"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
