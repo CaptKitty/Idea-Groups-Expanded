@@ -249,6 +249,7 @@ religious_ideas = {
 			OR = {
 				religion_group = christian
 				religion_group = muslim 
+				religion = confucianism 
 			}
 		}
 	}
@@ -399,7 +400,7 @@ confucian_idea_groups_expanded = {
         #or saves 68 years if harmonizing every group
     }
     confucian_ideas_classics = {
-        tolerance_own = 1
+        idea_cost = -0.05
 		tolerance_heretic = 1
     }
     confucian_ideas_syncretic = {

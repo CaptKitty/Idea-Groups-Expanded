@@ -374,11 +374,11 @@ political_entry_test_act = {
 
 	potential = {
 		has_idea_group = state_affairs_idea_groups_expanded
-		has_idea_group = plutocratic_ideas
+		has_idea_group = plutocracy_ideas
 	}
 	allow = {
 		full_idea_group = state_affairs_idea_groups_expanded
-		full_idea_group = plutocratic_ideas
+		full_idea_group = plutocracy_ideas
 	}
 	
 	candidate_random_bonus = 1
@@ -670,11 +670,11 @@ freedom_doctrine_act = {
 
 	potential = {
 		has_idea_group = national_propaganda_idea_groups_expanded
-		has_idea_group = plutocratic_ideas
+		has_idea_group = plutocracy_ideas
 	}
 	allow = {
 		full_idea_group = national_propaganda_idea_groups_expanded
-		full_idea_group = plutocratic_ideas
+		full_idea_group = plutocracy_ideas
 	}
 	
 	republican_tradition = 0.2
@@ -1165,11 +1165,11 @@ republican_navy_act = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = plutocratic_ideas
+		has_idea_group = plutocracy_ideas
 		has_idea_group = power_projection_idea_groups_expanded
 	}
 	allow = {
-		full_idea_group = plutocratic_ideas
+		full_idea_group = plutocracy_ideas
 		full_idea_group = power_projection_idea_groups_expanded
 	}
 	
@@ -2340,11 +2340,11 @@ holy_council_act = {
 
 	potential = {
 		has_idea_group = confucian_idea_groups_expanded
-		has_idea_group = plutocratic_ideas
+		has_idea_group = plutocracy_ideas
 	}
 	allow = {
 		full_idea_group = confucian_idea_groups_expanded
-		full_idea_group = plutocratic_ideas 
+		full_idea_group = plutocracy_ideas
 	}
 	
 	reelection_cost = -0.10
